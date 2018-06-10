@@ -1,0 +1,26 @@
+{
+  "name": "Discollect",
+  "version": "1.0.0",
+  "description": "Discord bot that automatically posts new Archillect content.",
+  "repository": "https://github.com/pacocoursey/discollect",
+  "author": "Paco Coursey",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint --ignore-path .gitignore .",
+    "fix": "eslint --ignore-path .gitignore --fix ."
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "node-opus": "^0.3.0",
+    "npm": "^6.1.0",
+    "request": "^2.87.0",
+    "say": "^0.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
