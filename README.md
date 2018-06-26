@@ -8,7 +8,12 @@ Discollect is a [Discord](https://discordapp.com) bot that automatically posts n
 
 ## Usage
 
-Add Discollect to your server by following [this link](https://discordapp.com/oauth2/authorize?&client_id=455175865119277056&scope=bot).
+```
+$ git clone https://github.com/pacocoursey/Discollect.git
+$ cd Discollect
+$ npm install
+$ npm start
+```
 
 Start Discollect by typing `|||` in any channel she has access to. She will automatically check for new Archillect content every ten minutes. If you wish to force an update, simply type `|||` again. She will never post more than 5 times at a time.
 

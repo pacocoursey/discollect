@@ -13,12 +13,10 @@
   },
   "dependencies": {
     "discord.js": "^11.3.2",
-    "node-opus": "^0.3.0",
-    "npm": "^6.1.0",
-    "request": "^2.87.0",
-    "say": "^0.14.0"
+    "request": "^2.87.0"
   },
   "devDependencies": {
+    "npm": "^6.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0"
